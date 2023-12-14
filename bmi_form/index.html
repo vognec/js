@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="weight">Weight:</label>
+                <input type="text" id="weight" name="user_weight">
+            </li>
+            <li>
+                <label for="height">Height:</label>
+                <input type="text" id="height" name="user_height">
+            </li>
+            <li>
+                <label for="lb">lb</label>
+                <input type="radio" id="lb" name="unit">
+            </li>
+            <li>
+                <label for="kg">kg</label>
+                <input type="radio" id="kg" name="unit">
+            </li>
+            <li class="button">
+                <button type="submit">Calculate IBM</button>
+            </li>
+            <li>
+                <label for="bmi">BMI:</label>
+                <textarea id="bmi" name="user_bmi"></textarea>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
