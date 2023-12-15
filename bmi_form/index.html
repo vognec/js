@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="/my-handling-form-page" method="post">
+    <form>
         <ul>
             <li>
                 <label for="weight">Weight:</label>
@@ -26,13 +26,14 @@
                 <input type="radio" id="kg" name="unit">
             </li>
             <li class="button">
-                <button type="submit">Calculate IBM</button>
+                <button id="calc-bmi">Calculate IBM</button>
             </li>
             <li>
                 <label for="bmi">BMI:</label>
-                <textarea id="bmi" name="user_bmi"></textarea>
+                <textarea id="bmi"></textarea>
             </li>
         </ul>
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
